@@ -128,3 +128,12 @@ a:hover {
   padding-left: 19px;
   color: aliceblue;
 }
+.id {
+  display: inline;
+  font-family: "Special Elite", cursive;
+  font-size: 20px;
+  margin: 0 auto;
+  padding-left: 19px;
+  color: aliceblue;
+  position: relative;
+}
