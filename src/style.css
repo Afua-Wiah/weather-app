@@ -119,3 +119,12 @@ a:hover {
   text-align: center;
   display: block;
 }
+
+.link {
+  display: block;
+  font-family: "Special Elite", cursive;
+  font-size: 20px;
+  margin: 0 auto;
+  padding-left: 19px;
+  color: aliceblue;
+}
