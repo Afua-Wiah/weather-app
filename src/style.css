@@ -1,0 +1,121 @@
+h5 {
+  display: block;
+  font-family: "Special Elite", cursive;
+  color: aliceblue;
+  font-size: 20px;
+  text-align: center;
+}
+h6 {
+  display: block;
+  font-family: "Special Elite", cursive;
+  color: aliceblue;
+  text-align: left;
+  font-size: 20px;
+}
+a {
+  color: aliceblue;
+}
+a:hover {
+  color: #000;
+}
+
+.units {
+  font-family: "Special Elite", cursive;
+  color: aliceblue;
+  font-weight: 90;
+  font-size: 30px;
+  line-height: 1;
+  position: relative;
+  margin-left: 75px;
+  top: -70px;
+  padding-right: 50px;
+}
+.card-days {
+  width: auto;
+}
+
+.card-title {
+  display: block;
+  font-family: "Special Elite", cursive;
+  color: aliceblue;
+  font-size: 60px;
+  text-align: left;
+  margin-top: 5px;
+  position: relative;
+  padding-left: 1px;
+}
+.card {
+  background-color: rgba(70, 124, 157, 0.716);
+  border: 0;
+  padding: 10px;
+  margin: 10px;
+  opacity: 75%;
+}
+.card-text {
+  display: block;
+  font-family: "Special Elite", cursive;
+  font-size: 30px;
+  margin: 0 auto;
+  padding: 0;
+  color: aliceblue;
+}
+.card-date {
+  display: inline;
+  font-family: "Special Elite", cursive;
+  font-size: 30px;
+  padding: 0;
+  color: aliceblue;
+  position: relative;
+  padding-left: 5px;
+}
+.card-header {
+  font-family: "Special Elite", cursive;
+  color: aliceblue;
+  font-size: 28px;
+  border: 0px;
+  text-align: left;
+  display: block;
+  position: relative;
+  padding-left: 2px;
+}
+#find-city {
+  margin: 50px;
+  margin-left: 10px;
+  border-radius: 20px;
+  position: relative;
+  font-family: "Special Elite", cursive;
+}
+#search-btn {
+  background: aliceblue;
+  color: gray;
+  margin-left: 10px;
+  border: transparent;
+  border-radius: 5px;
+  transition: 10ms all ease-in-out;
+}
+#search-btn:hover {
+  color: gainsboro;
+  background-color: gray;
+}
+.col-sm {
+  padding: 30px;
+  width: 10px;
+  margin-top: 40px;
+  font-family: "Special Elite", cursive;
+  color: aliceblue;
+}
+#rain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+.describe {
+  text-align: center;
+  display: block;
+}
