@@ -42,7 +42,7 @@ li:first-letter {
   color: gray;
   font-family: "Special Elite", cursive;
   margin: 50px;
-  margin-left: 10px;
+  margin-left: 32px;
   border: transparent;
   border-radius: 5px;
   transition: 10ms all ease-in-out;
@@ -100,12 +100,12 @@ li:first-letter {
 }
 
 .link {
-  display: block;
+  display: inline;
   font-family: "Special Elite", cursive;
   font-size: 18px;
   margin: 0;
-  padding: 15px;
-  color: aliceblue;
+  padding: 3px;
+  color: rgb(8, 130, 237);
 }
 .id {
   display: inline;
@@ -113,6 +113,7 @@ li:first-letter {
   font-size: 18px;
   color: aliceblue;
 }
+
 .overview {
   margin-bottom: 20px;
 }
