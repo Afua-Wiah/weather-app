@@ -1,93 +1,47 @@
-h5 {
-  display: block;
-  font-family: "Special Elite", cursive;
-  color: aliceblue;
-  font-size: 20px;
-  text-align: center;
-}
-h6 {
-  display: block;
-  font-family: "Special Elite", cursive;
-  color: aliceblue;
-  text-align: left;
-  font-size: 20px;
-}
 a {
   color: aliceblue;
+  text-decoration: none;
 }
 a:hover {
-  color: #000;
+  color: #f3f3f5;
 }
 
-.units {
-  font-family: "Special Elite", cursive;
-  color: aliceblue;
-  font-weight: 90;
-  font-size: 30px;
-  line-height: 1;
-  position: relative;
-  margin-left: 75px;
-  top: -70px;
-  padding-right: 50px;
-}
-.card-days {
-  width: auto;
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-.card-title {
-  display: block;
-  font-family: "Special Elite", cursive;
-  color: aliceblue;
-  font-size: 60px;
-  text-align: left;
-  margin-top: 5px;
-  position: relative;
-  padding-left: 1px;
-}
-.card {
-  background-color: rgba(70, 124, 157, 0.716);
-  border: 0;
-  padding: 10px;
-  margin: 10px;
-  opacity: 75%;
-}
-.card-text {
-  display: block;
-  font-family: "Special Elite", cursive;
-  font-size: 30px;
-  margin: 0 auto;
+li {
+  list-style: none;
+  margin: 0;
   padding: 0;
+
   color: aliceblue;
-}
-.card-date {
-  display: inline;
   font-family: "Special Elite", cursive;
-  font-size: 30px;
-  padding: 0;
-  color: aliceblue;
-  position: relative;
-  padding-left: 5px;
+  font-size: 18px;
 }
-.card-header {
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+#city {
   font-family: "Special Elite", cursive;
+  font-size: 40px;
   color: aliceblue;
-  font-size: 28px;
-  border: 0px;
-  text-align: left;
-  display: block;
-  position: relative;
-  padding-left: 2px;
 }
-#find-city {
+#city-input {
   margin: 50px;
   margin-left: 10px;
-  border-radius: 20px;
+  border-radius: 5px;
   position: relative;
   font-family: "Special Elite", cursive;
 }
 #search-btn {
   background: aliceblue;
   color: gray;
+  font-family: "Special Elite", cursive;
+  margin: 50px;
   margin-left: 10px;
   border: transparent;
   border-radius: 5px;
@@ -97,13 +51,7 @@ a:hover {
   color: gainsboro;
   background-color: gray;
 }
-.col-sm {
-  padding: 30px;
-  width: 10px;
-  margin-top: 40px;
-  font-family: "Special Elite", cursive;
-  color: aliceblue;
-}
+
 #rain {
   position: fixed;
   top: 0;
@@ -115,25 +63,104 @@ a:hover {
   object-fit: cover;
   z-index: -1;
 }
-.describe {
-  text-align: center;
-  display: block;
+
+#temperature {
+  font-family: "Special Elite", cursive;
+  color: aliceblue;
+  font-size: 50px;
+  margin: 0;
+}
+
+#copyright {
+  font-family: "Special Elite", cursive;
+  color: aliceblue;
+  display: inline;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.card {
+  background-color: rgba(70, 124, 157, 0.716);
+  border: 0;
+  padding: 10px;
+  margin: 10px;
+  opacity: 75%;
+}
+
+.units {
+  font-family: "Special Elite", cursive;
+  color: aliceblue;
+  font-size: 90px;
+  position: relative;
 }
 
 .link {
   display: block;
   font-family: "Special Elite", cursive;
-  font-size: 20px;
-  margin: 0 auto;
-  padding-left: 19px;
+  font-size: 18px;
+  margin: 0;
+  padding: 15px;
   color: aliceblue;
 }
 .id {
   display: inline;
   font-family: "Special Elite", cursive;
-  font-size: 20px;
-  margin: 0 auto;
-  padding-left: 19px;
+  font-size: 18px;
   color: aliceblue;
+}
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: aliceblue;
+  font-size: 100px;
+  font-weight: 400;
+  font-family: "Special Elite", cursive;
+}
+
+.weather-temperature .units {
   position: relative;
+  font-size: 30px;
+  top: -19px;
+}
+
+.weather-temperature .active {
+  color: aliceblue;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: aliceblue;
+  font-family: "Special Elite", cursive;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 1;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.7;
+}
+
+.weather-forecast-temperatures {
+  font-size: 15px;
 }
